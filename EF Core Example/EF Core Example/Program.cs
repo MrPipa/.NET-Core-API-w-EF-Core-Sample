@@ -16,8 +16,7 @@ namespace EF_Core_Example
                 .UseKestrel(options =>
                 {
                     options.Listen(IPAddress.Any, 80);
-                }
-                )
+                })
 
                 .UseStartup<Startup>();
     }
